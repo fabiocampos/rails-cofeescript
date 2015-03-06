@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>TestProject</title>
+
+</head>
+<body>
+
+<%= @test_title %>
+
+<div id="test_div">
+Div que desapareceu
+</div> 
+
+<div id="main_div"  style="display: none;">
+Esse conteudo deve ser gerado pelo demo controller e aparecer com javascript
+</div>
+
+<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+</body>
+</html>
